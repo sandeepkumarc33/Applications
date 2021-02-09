@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
 public class EmployeeCrudApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EmployeeCrudApplication.class, args)
+		SpringApplication.run(EmployeeCrudApplication.class, args);
 		BasicConfigurator.configure();
 	}
 
